@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Learning\Kata.csproj" />
+    <ProjectReference Include="..\Learning\Katas.csproj" />
   </ItemGroup>
 
 </Project>
