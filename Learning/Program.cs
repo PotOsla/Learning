@@ -2,6 +2,8 @@
 {
     private static void Main(string[] args)
     {
-        ReversedStrings.Solution("gucci");
+       string n = Console.ReadLine();
+       string str = ReversedStrings.Solution(n);
+       Console.WriteLine(str);
     }
 }
