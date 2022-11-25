@@ -10,8 +10,6 @@ public class RemoveCharKata
         {
             cutstr += chars[i];
         }
-       // foreach (var lit in chars)
-       //     cutstr += lit.ToString();
         return cutstr;
     }
 }
