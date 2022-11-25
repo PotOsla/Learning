@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 
 [TestFixture]
-public class Test
+public class RemoveCharTest
 {
     [Test]
     public void Test1()

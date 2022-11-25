@@ -2,7 +2,7 @@
 using System;
 
 [TestFixture]
-public class Tests
+public class PositiveSumTests
 {
     [Test]
     [TestCase(new int[] { 1, 2, 3, 4, 5 }, ExpectedResult = 15)]
@@ -12,6 +12,6 @@ public class Tests
     [TestCase(new int[] { -1, -2, -3, -4, -5 }, ExpectedResult = 0)]
     public static int ExampleTest(int[] arr)
     {
-        return Kata.PositiveSum(arr);
+        return PositiveSumKata.PositiveSum(arr);
     }
 }

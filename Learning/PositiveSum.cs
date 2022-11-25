@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-public class Kata
+public class PositiveSumKata
 {
     public static int PositiveSum(int[] arr)
     {
