@@ -2,10 +2,15 @@
 {
     public class Item
     {
-        public int Increment(ref int x)
+        public int Factorial(int n)
         {
-            x = x + 1;
-            return x;
+            if (n == 1) 
+                return 1;
+
+            var t = Factorial(n - 1);
+
+            return n * t;
         }
     }
 }
+
