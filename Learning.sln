@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katas", "Learning\Katas.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KataTests", "KataTests\KataTests.csproj", "{34B3C0A4-191D-4C1E-BD35-28E9F9CFEBFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{575A0F5D-835E-4AD5-BC1D-4500164CB628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Examples.csproj", "{575A0F5D-835E-4AD5-BC1D-4500164CB628}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
