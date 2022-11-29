@@ -1,6 +1,4 @@
-﻿namespace Solution
-{
-    using NUnit.Framework;
+﻿namespace eightkyu;
     [TestFixture]
   public class ReversedStringsTests
   {
@@ -12,4 +10,3 @@
       Assert.That(ReversedStrings.Solution(text), Is.EqualTo(expected));
     }
   }
-}

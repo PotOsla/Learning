@@ -1,8 +1,5 @@
-﻿using System;
-using NUnit.Framework;
+﻿namespace eightkyu;
 
-namespace Solution
-{
     [TestFixture]
     public class SolutionTest
     {
@@ -16,4 +13,3 @@ namespace Solution
             Assert.AreEqual("Odd", SolutionClass.EvenOrOdd(-1));
         }
     }
-}

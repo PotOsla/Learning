@@ -1,4 +1,5 @@
-﻿[TestFixture]
+﻿namespace eightkyu;
+[TestFixture]
 public class FindSmallTests
 {
     [Test]

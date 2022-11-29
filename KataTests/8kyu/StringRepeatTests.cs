@@ -1,5 +1,5 @@
-﻿namespace Solution
-{
+﻿namespace eightkyu;
+
     using NUnit.Framework;
     using System;
 
@@ -14,4 +14,3 @@
             Assert.AreEqual("ha ha ", StringRepeatKata.RepeatStr(2, "ha "));
         }
     }
-}

@@ -1,7 +1,4 @@
-﻿using System;
-using NUnit.Framework;
-
-
+﻿namespace eightkyu;
 [TestFixture]
 public class RemoveCharTest
 {

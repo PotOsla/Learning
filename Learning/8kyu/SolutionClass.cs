@@ -1,7 +1,5 @@
-﻿using System;
+﻿namespace eightkyu;
 
-namespace Solution
-{
     public class SolutionClass
     {
         public static string EvenOrOdd(int number)
@@ -16,4 +14,3 @@ namespace Solution
             }
         }
     }
-}

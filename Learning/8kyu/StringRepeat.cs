@@ -1,7 +1,5 @@
-﻿using System;
+﻿namespace eightkyu;
 
-namespace Solution
-{
     public static class StringRepeatKata
     {
         public static string RepeatStr(int n, string s)
@@ -15,4 +13,3 @@ namespace Solution
              // return string.Concat(Enumerable.Repeat(s, n));
         }
     }
-}

@@ -1,9 +1,4 @@
-﻿namespace Solution
-{
-    using NUnit.Framework;
-    using System;
-    using System.Collections.Generic;
-
+﻿namespace eightkyu;
     [TestFixture]
     public class NumberToStringTests
     {
@@ -21,4 +16,3 @@
         [Test, TestCaseSource("testCases")]
         public string Test(int num) => NumberToStringKata.NumberToString(num);
     }
-}

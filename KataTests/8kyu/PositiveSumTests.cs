@@ -1,6 +1,4 @@
-﻿using NUnit.Framework;
-using System;
-
+﻿namespace eightkyu;
 [TestFixture]
 public class PositiveSumTests
 {
