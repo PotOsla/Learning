@@ -1,6 +1,4 @@
-﻿using System;
-
-public class KeepHydrated
+﻿public class KeepHydrated
 {
     public static int Litres(double time)
     {
