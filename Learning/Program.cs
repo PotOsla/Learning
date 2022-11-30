@@ -17,5 +17,6 @@ class Program
 {
     static void Main()
     {
+        FindSmallKata.FindSmallestInt(new int[] { 78, 56, 232, 12, 11, 43 });
     }
 }
