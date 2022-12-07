@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 [TestFixture]
-public class SolutionTest
+public class ListFiltererTest
 {
     [Test]
     public void GetIntegersFromList_MixedValues_ShouldPass_1()
