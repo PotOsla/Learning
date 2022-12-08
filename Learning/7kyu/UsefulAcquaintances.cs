@@ -1,5 +1,5 @@
-﻿public class UsefulAcquaintances {
-
+﻿public class UsefulAcquaintances 
+{
     public static Dictionary<string, List<string>> OptimizeContacts(List<string> contacts)
     {
         var dictionary = new Dictionary<string, List<string>>();
@@ -19,16 +19,14 @@
             temp[0] = temp[0].Substring(0, 2);
             
             bool check = dictionary.ContainsKey(temp[0]);
-            if (check)
+            if (!check)
             {
-                dictionary[temp[0]].Add(templist[0]);
-            }
-            else 
-            {
-                List<string> templist = new List<string>() { temp[0] };
-                dictionary.Add(temp[0], templist); 
+                List<string> templist = new List<string>();
+                dictionary.Add(temp[0], templist);
             }
 
+            var list = dictionary[temp[0]];
+            list.Add(temp[1]);
         }
         return dictionary;
     }

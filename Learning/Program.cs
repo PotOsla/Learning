@@ -3,6 +3,17 @@ class Program
 {
     static void Main(string[] args)
     {
+        var people = new Dictionary<int, List<string>>();
+        people[5] = new List<string>(){ "Tom"} ;
+        people[6] = new List<string>() { "Sam" };
+        people[7] = new List<string>() { "Bob" };
+
+        List<string> sam = people[6];
+        sam.Add("Keivin");
+        sam.Sort();
+        sam = people[7];
+        sam.Add("Dima");
+
         var contacts = new List<string>();
 
         contacts.Add("Sasha:sasha@gmail.com");
