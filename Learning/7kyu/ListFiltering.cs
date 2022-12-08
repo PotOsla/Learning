@@ -9,11 +9,10 @@ public class ListFilterer
         int temp;
         foreach (var i in listOfItems)
         {
-            if (i is string) //listOfItems.GetType() == typeof(string) не работал
+            if (i is string) 
                  continue;
             temp = (int)i;
             filter.Add(temp);
-
         }
         return filter;
     }
