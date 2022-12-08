@@ -12,12 +12,11 @@
             }
 
             temp = contact.Split(':');
-            if (temp.Length != 2 || string.IsNullOrWhiteSpace(temp[0]) || string.IsNullOrWhiteSpace(temp[1]) || temp[0].Length <= 1)
+            if (temp.Length != 2 || string.IsNullOrWhiteSpace(temp[0]) || string.IsNullOrWhiteSpace(temp[1]))
             { 
                 continue;
             }
-            temp[0] = temp[0].Substring(0, 2);
-            
+            temp[0] = temp[0].Length == 1 ? temp[0] : temp[0].Substring(0, 2); 
             bool check = dictionary.ContainsKey(temp[0]);
             if (!check)
             {
@@ -26,7 +25,7 @@
             }
 
             var list = dictionary[temp[0]];
-            list.Add(temp[1]);
+            list.Add(contact);
         }
         return dictionary;
     }
