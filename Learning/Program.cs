@@ -1,13 +1,8 @@
 ﻿
 class Program
 {
-    static void Update(string s)
-    {
-        s = "adc";
-    }
     static void Main()
     {
-        Benford.GetBenfordStatistics("Ekibastuz GRES-Two Power Station 420");
+        SplitAndJoin.ReplaceIncorrectSeparators("Россия: 146748590; 01.01.2020 1.88%");
     }
-
 }

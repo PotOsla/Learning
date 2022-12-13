@@ -1,4 +1,4 @@
-﻿namespace sevenkyu;
+﻿namespace KataTests.Ulearn;
 using NUnit.Framework;
 using System;
 using System.Collections;
