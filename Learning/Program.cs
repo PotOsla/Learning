@@ -1,8 +1,11 @@
-﻿
-class Program
+﻿using System.Text;
 {
-    static void Main()
-    {
-        SplitAndJoin.ReplaceIncorrectSeparators("Россия: 146748590; 01.01.2020 1.88%");
-    }
+    var commands = new string[] { "push Привет! Это снова я! Пока!",
+                "pop 5",
+                "push Как твои успехи? Плохо?",
+                "push qwertyuiop",
+                "push 1234567890",
+                "pop 26" };
+
+    PushPop.ApplyCommands(commands);
 }
